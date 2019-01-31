@@ -30,13 +30,14 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  margin-top: 3px;
 }
 .nav {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0 auto ;
   padding: 0;
 }
 
@@ -44,6 +45,7 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+    font-size: 20px;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,7 +59,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/africa-background2.jpg') no-repeat top center ;
+  background-position: top;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -72,21 +75,23 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  background-color: black;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.15) rotate(5deg);
+  border-color: #222 ;
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #111;
+  color: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 11px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #111;
+  color: #fff;
 }
 .card {
   margin: 30px;
@@ -99,7 +104,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #a22b00;
 }
 
 ul.skills {
@@ -110,14 +115,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #a22b00;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #111;
 }
 
 footer {
@@ -151,11 +156,11 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.facebook {
+  background-image: url(images/facebook.png);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+a.instagram {
+  background-image: url(images/instagram.png);
 }
 a.github {
   background-image: url(images/github.svg);
