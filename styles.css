@@ -59,7 +59,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/africa-background2.jpg') no-repeat top center ;
+  background: url('images/africa-background.jpg') no-repeat top center ;
   background-position: top;
   background-size: cover;
   overflow: hidden;
@@ -210,3 +210,16 @@ a.social:hover {
 
 }
 
+/* styles for experience page */
+
+#main-id {
+  padding-top: 1px;
+  padding-bottom: 40px;
+}
+
+.experience-content {
+  color: white;
+  background-color: #111;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
