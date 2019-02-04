@@ -74,8 +74,8 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
-  background-color: black;
+  transition: all 0.8s;
+  background-color: white;
 }
 header .profile-image:hover {
   transform: scale(1.15) rotate(5deg);
@@ -222,4 +222,24 @@ a.social:hover {
   background-color: #111;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+
+
+/* styles for email page - fairly simple */
+
+.email {
+  padding: 20px 0 20px 0;
+  }
+
+.email img {
+  opacity: 0.5;
+  background-color: skyblue;
+  border-radius: 50%;
+  padding: 1px auto;
+}
+
+.email img:hover {
+  background-color: black;
+  opacity: 1;
 }
